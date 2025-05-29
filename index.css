@@ -1,3 +1,181 @@
-h1{
-    color: rgb(16, 13, 211);
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Azeret Mono", monospace;
+    color: black;
+}
+header{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+header button{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.container{
+    background-image: url(data/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 652px;
+    width: auto;
+    border: 1px dashed rgba(128, 128, 128, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.container div{
+    width: 998px;
+    height: 581px;
+    top: 157px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.container div img{
+    margin-top: 25px;
+}
+.thum_title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+}
+.thum_text{
+    width: 852px;
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.thum_button{
+    background-color: black;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.container2{
+    margin: 50px;
+    background-color:rgba(250, 235, 215, 0.719);
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+.container2 div{
+    padding: 0px 50px 50px;
+    
+    /* border: 2px solid blue; */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid blue; */
+}
+.section1 h1{
+    margin-bottom: 10px;
+}
+.section1 p{
+    width: 852px;
+    height: 52px;
+}
+.section2 div, .section3 div, .section4 div{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+.section2_text, .section3_text, .section4_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    text-align: start;
+    width: 750px;
+}
+.section2_text button, .section3_text button, .section4_text button{
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    padding: 5px 25px;
+}
+.container3{
+    text-align: center;
+    margin: 50px;
+}
+.container4{
+    text-align: center;
+    margin: 50px;
+}
+.c4_section1{
+    display: flex;
+}
+.html, .css, .js{
+    margin: 20px;
+    padding: 30px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    color: black;
+    border-radius: 10px;
+}
+#html{
+    background-color:rgba(245, 134, 227, 0.178);
+}
+#css{
+    background-color:rgba(185, 142, 206, 0.11);
+}
+#js{
+    background-color:rgba(238, 236, 97, 0.219);
+}
+.container5{
+    margin: 50px;
+    text-align: center;
+}
+.react, .node, .mongo{
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 10px;
+}
+.react div, .node div, .mongo div{
+    text-align: start;
+    padding: 20px;
+}
+.container6{
+    margin: 50px;
+    background-image: url(data/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:180px;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 60px;
+}
+.container6 input{
+    padding:10px 100px;
+    border-radius: 10px;
+}
+.container6 button{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+footer{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between
+}
+.contact{
+    display: flex;
 }
